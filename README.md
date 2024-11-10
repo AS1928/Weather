@@ -1,53 +1,27 @@
- 
+# Weather App
 
-This project was created with help of 
-# React + TypeScript + Vite
+A simple weather application that allows users to check the current weather conditions for any city. The app fetches real-time data from a weather API and displays information such as temperature, humidity, wind speed, and a weather description.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+you can check it out by clicking [here](https://29lrh6-5173.csb.app/) and click on "yes procees to preview"
+![img](https://i.ibb.co/19bWXBp/image.png)
+![img](https://i.ibb.co/J26GvL6/image.png)
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for the weather in any city.
+![city](https://i.ibb.co/3yTLGz1/image.png)
+- View the current temperature, humidity, wind speed, and description.
+![ct](https://i.ibb.co/P6602NN/image.png)
+- View the temperature, humidity, wind speedof next 6 days.
+![6day](https://i.ibb.co/stdSyG7/image.png)
+- User-friendly interface with real-time updates.
+- Responsive design for use on both desktop and mobile devices.
+![rd](https://i.ibb.co/0CZmt54/image.png)
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Frontend**: HTML, CSS, React.js, TypeScript.
+- **Backend**: TypeScript.
+- **Weather API**: Open-Metero API
+- **Deployment**: CodeSandbox.io ([here](https://29lrh6-5173.csb.app/))
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
