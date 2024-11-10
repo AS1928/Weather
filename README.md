@@ -2,7 +2,7 @@
 
 A simple weather application that allows users to check the current weather conditions for any city. The app fetches real-time data from a weather API and displays information such as temperature, humidity, wind speed, and a weather description.
 
-you can check it out by clicking [here](https://29lrh6-5173.csb.app/) and click on "yes procees to preview"
+you can check it out by clicking [here](https://29lrh6-5173.csb.app/) and click on "Yes, procees to preview"
 ![img](https://i.ibb.co/19bWXBp/image.png)
 ![img](https://i.ibb.co/J26GvL6/image.png)
 
